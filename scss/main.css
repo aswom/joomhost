@@ -1,0 +1,154 @@
+.main__items{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main__item .oval{
+   width: 320px;
+   height: 450px;
+   border-radius: 50%;
+   background-color: #267ae9;
+   padding: 0 20px;
+   
+}
+.item__inner{
+   padding: 0 50px;
+}
+.item__btn{
+   padding:15px 111px;
+   background-color: #267ae9;
+   color:#fff;
+   border-radius:0;
+   max-width: 360px;
+   width: 100%;
+}
+.item__list{
+   margin:60px 0;
+}
+.item__list li{
+   list-style: none;
+   position: relative;
+    margin:10px 0;
+   margin-left:20px;
+   
+}
+.item__list li:before{
+   content:'';
+   width: 16px;
+   height: 16px;
+   background: url('/img/Check-02.svg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   top:0;
+   left:-20px;
+}
+.item__title{
+   font-family: Roboto;
+font-size: 31.3px;
+line-height: 50px;
+font-weight: 700;
+color: #267ae9;
+margin: 40px 0 25px 0;
+}
+.item__text{
+   font-family: Lato;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #4a6385;
+max-width: 275px;
+
+}
+.main__img{
+  
+   margin-top: 40px;
+ }
+.main__title{
+   font-family: Roboto;
+font-size: 40px;
+line-height: 50px;
+font-weight: 700;
+color: #2f3f54;
+margin-bottom: 50px;
+}
+.main__title span{
+   color: #2575e7;
+}
+.main__text{
+   font-family: Lato;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #4a6385;
+max-width: 590px;
+width: 100%;
+margin:0 auto;
+}
+.main__wrapper{
+   position: relative;
+   margin-bottom: 200px;
+      padding-bottom: 200px;
+}
+.main__head{
+   position: absolute;
+   left:10px;
+   text-align: center;
+   padding: 90px 110px 100px 120px;
+   background-color: #fff;
+   margin: 0 auto;
+}
+.payment{
+   position: absolute;
+   top:390px;
+   font-family: Roboto;
+font-size: 32.9px;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: 0.04em;
+color: #fff;
+margin-left:110px;
+/*margin-bottom:250px;*/
+}
+.payment span{
+   font-family: Roboto;
+font-size: 22.7px;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: 0.04em;
+color: #ffffff;
+margin-right:5px;
+}
+.payment .mo{
+   font-family: Roboto;
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+letter-spacing: 0.04em;
+color: #ffffff;
+}
+.item__img1{
+    min-height: 86px;
+    height: 100%;
+   background: url('/img/layer_16_5138.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.item__img2{
+    min-height: 86px;
+    height: 100%;
+   background: url('/img/layer_15_5207.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.item__img3{
+    min-height: 86px;
+    height: 100%;
+   background: url('/img/layer_17_5209.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}

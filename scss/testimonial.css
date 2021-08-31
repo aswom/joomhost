@@ -1,0 +1,17 @@
+.textimonial{
+   margin-top: 200px;
+   /*margin:0 auto;
+   text-align: center;*/
+}
+.testimonial__title{
+   font-family: Roboto;
+font-size: 40px;
+line-height: 50px;
+font-weight: 700;
+color: #2f3f54;
+ text-align: center;
+   margin: 150px;
+}
+.testimonial__title span{
+   color: #267ae9;
+}

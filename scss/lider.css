@@ -1,0 +1,108 @@
+.lider{
+   max-width: 1920px;
+   width: 100%;
+   min-height: 923px;
+   background: url('/img/layers.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lider__inner{
+   display: flex;
+   padding-top:160px;
+   align-content: center;
+} 
+.lider__speed,
+.lider__enter,
+.lider__special {
+  font-family: Lato;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff; 
+}
+.lider__title{
+   font-family: Roboto;
+font-size: 48px;
+line-height: 52px;
+font-weight: 900;
+text-transform: uppercase;
+color: #ffffff;
+}
+.lider__offer{
+   font-family: Lato;
+font-size: 19px;
+line-height: 52px;
+font-weight: 700;
+color: #ffffff;
+}
+label{
+   font-family: Lato;
+font-size: 16px;
+line-height: 27px;
+font-weight: 700;
+color: #ffffff;
+}
+.lider__right{
+   position: relative;
+   text-align: center;
+}
+
+.round{
+   /*display: none;*/
+   position: absolute;
+   top:-50px;
+   left:250px;
+}
+form{
+   margin-top: 40px;
+}
+button{
+   margin-top:45px;
+   margin-bottom:15px;
+   padding:15px 40px;
+   background-color: #267ae9;
+border: 3px solid #ffffff;
+border-radius: 23.5px;
+
+}
+.wp_img{
+   width: 16px;
+   height: 16px;
+}
+.r_start{
+   position: absolute;
+   top:20px;
+   left:300px;
+   font-family: Lato;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #212121;
+}
+.r_price{
+   font-family: Lato;
+font-size: 54px;
+line-height: 24px;
+font-weight: 700;
+color: #212121;
+position: absolute;
+top:60px;
+left:300px;
+}
+.r_month{
+   position: absolute;
+   top:100px;
+   left:380px;
+   font-family: Lato;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #212121;
+}
+.square {
+   max-width: 385px;
+   width: 100%;
+min-height: 462px;
+margin-top:40px;
+}
