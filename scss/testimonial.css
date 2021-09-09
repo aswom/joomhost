@@ -15,3 +15,59 @@ color: #2f3f54;
 .testimonial__title span{
    color: #267ae9;
 }
+.item__text{
+   max-width: 245px;
+   width: 100%;
+}
+.slider{
+   min-width: 0;
+}
+.slick-track{
+   display: flex;
+}
+.slick-list{
+   overflow: hidden;
+}
+.slide__wrap{
+   display: flex;
+}
+
+.wrap__img{
+   background-color: #267ae9; 
+   max-width: 190px;   
+   width: 100%;
+   min-height: 345px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /*margin-right: 40px;*/
+}  
+.item__text{
+   margin-bottom: 40px;
+   
+}
+.item__box{
+  padding: 60px 40px;
+}
+.single-item.slick-dotted {
+   display: flex;
+   justify-items: end;
+   align-items: center;
+   padding:50px 0;
+   /*margin:50px 0;*/
+      background-color: #fff;
+      
+ }
+ .slick-dots li{
+    font-size: 0;  
+ }
+ .slick-dots li button {
+   font-size: 0;
+   width: 20px;
+   height: 20px;
+   color:#fff;
+   background-color: blue;
+      margin:1px 0;
+    
+ }
