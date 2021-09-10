@@ -1,17 +1,53 @@
 .main__items{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+   /*display: flex;*/
+   display: grid;
+   grid-template-areas:  "item1 item2 item3";
+   /*grid-template-columns: 1fr 1fr 1fr;*/
+   /*grid-auto-flow: column;*/
+   /*justify-content: space-between;
+   align-items: center;*/
+   /*flex-wrap: wrap;*/
+}
+.main__item1{
+   grid-area: item1;
+}
+.main__item2{
+   grid-area: item2;
+}
+.main__item3{
+   grid-area: item3;
 }
 
-.main__item .oval{
-   width: 320px;
-   height: 450px;
+
+.main__item1 .oval,
+.main__item2 .oval,
+.main__item3 .oval
+{
+  
+      max-width: 320px;
+   width: 100%;
+   min-height: 450px;
+   /*height: auto;*/
    border-radius: 50%;
-   background-color: #267ae9;
+    background-color: #267ae9;
    padding: 0 20px;
+   /*display: block;*/
+   position: relative;
+   /*margin-top:-100px;*/
    
 }
+.main__item1 .filter,
+.main__item2 .filter,
+.main__item3 .filter
+{
+   position: absolute;
+   top:0px;
+   left:0px;
+   width:320px;
+   height: 350px;
+   background-color: #fff;
+}
+
 .item__inner{
    padding: 0 50px;
 }
@@ -98,6 +134,7 @@ margin:0 auto;
    padding: 90px 130px 100px 120px;
    background-color: #fff;
    margin: 0 auto;
+   z-index: 2;
 }
 .payment{
    position: absolute;
@@ -151,4 +188,44 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-position: center;
    
+}
+@media screen and (max-width:1077px) {
+   .main__head{
+      padding-bottom: 25px;
+   }
+   .main__items{
+      display: grid;
+      /*grid-template-columns: 1fr 1fr ;*/
+      grid-template-areas: "item1 item2"
+                            " item3 .";
+       /*padding-top: 50px;*/
+       /*justify-content: center;*/
+   }
+   .main__item3{
+      margin-top:-250px;
+      /*margin-right:300px;*/
+      z-index: -3;
+      justify-content: center;
+   }
+}
+@media screen and (max-width:768px) {
+   .main__items{
+      display: grid;
+      /*grid-template-columns: 1fr 1fr ;*/
+      grid-template-areas: "item1" 
+                           "item2"
+                           "item3";
+       /*padding-top: 50px;*/
+       justify-content: center;
+   }
+   .main__item1{
+      /*margin-top:-250px;*/
+      /*margin-right:300px;*/
+      z-index: -1;
+   }
+   .main__item2{
+      margin-top:-250px;
+      /*margin-right:300px;*/
+      z-index: -2;
+   }
 }

@@ -98,16 +98,16 @@ html, body {
           transform: translateY(5px);
 }
 
-.burger__menu-active span {
+.burger__menu.active span {
   height: 0;
 }
 
-.burger__menu-active span:before {
+.burger__menu.active span:before {
   -webkit-transform: rotate(35deg);
           transform: rotate(35deg);
 }
 
-.burger__menu-active span:after {
+.burger__menu.active span:after {
   -webkit-transform: rotate(-35deg);
           transform: rotate(-35deg);
 }
@@ -128,6 +128,18 @@ html, body {
   font-weight: 700;
   text-transform: uppercase;
   color: #2f3f54;
+}
+
+.comp__logo {
+  max-width: 1170px;
+  width: 100%;
+  min-height: 100px;
+  background-image: url("/img/layer_45_5710.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 100px auto;
+  padding: 0 15px;
 }
 
 @media (max-width: 1800px) {
@@ -168,6 +180,9 @@ html, body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .comp__logo {
+    background-size: 93%;
   }
 }
 /*# sourceMappingURL=style.css.map */

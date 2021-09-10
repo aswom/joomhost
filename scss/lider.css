@@ -143,3 +143,12 @@ margin-top:40px;
     
   
 }
+@media screen and (max-width:1043px) {
+   .lider__left{
+      margin:0 auto;
+      margin-bottom: 100px;
+   }
+   .lider__right{
+      margin: 0 auto;
+   }
+}
